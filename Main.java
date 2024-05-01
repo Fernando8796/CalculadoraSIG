@@ -13,6 +13,7 @@ public class Main {
         System.out.println("[3] Multiplicação");
         System.out.println("[4] Divisão");
         System.out.println("[5] Potênciação");
+        System.out.println("[6] Radiciação");
 
         //Pegando o operador com o usuário
         System.out.print("> ");
@@ -78,6 +79,18 @@ public class Main {
                 double potencia = Math.pow(base, exp);
 
                 System.out.println("A potência é: "+potencia);
+            break;
+            //Caso radiciação
+            case "6":
+                System.out.print("Radicando: ");
+                int radicando = scanner.nextInt();
+
+                System.out.print("Índice: ");
+                double indice = (1 / scanner.nextDouble());
+
+                double radiciacao = Math.pow(radicando, indice);
+
+                System.out.println("A radiciação é: "+radiciacao);
             break;
             //Se não for nenhum dos operadores disponíveis
             default:
