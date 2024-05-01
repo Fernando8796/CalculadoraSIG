@@ -8,11 +8,11 @@ public class Main {
 
         //Printando os Operadores disponíveis
         System.out.println("Escolha um operador: ");
-        System.out.println("[1] Soma");
+        System.out.println("[1] Adição");
         System.out.println("[2] Subtração");
         System.out.println("[3] Multiplicação");
         System.out.println("[4] Divisão");
-        System.out.println("[5] Potência");
+        System.out.println("[5] Potênciação");
 
         //Pegando o operador com o usuário
         System.out.print("> ");
