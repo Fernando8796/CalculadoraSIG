@@ -8,10 +8,10 @@ public class Main {
 
         //Printando os Operadores disponíveis
         System.out.println("Escolha um operador: ");
-        System.out.println("[+] Soma");
-        System.out.println("[-] Subtração");
-        System.out.println("[*] Multiplicação");
-        System.out.println("[/] Divisão");
+        System.out.println("[1] Soma");
+        System.out.println("[2] Subtração");
+        System.out.println("[3] Multiplicação");
+        System.out.println("[4] Divisão");
 
         //Pegando o operador com o usuário
         System.out.print("> ");
@@ -19,7 +19,7 @@ public class Main {
 
         switch(operador) {
             //Caso soma
-            case "+":
+            case "1":
                 System.out.print("Primeiro número: ");
                 int num1 = scanner.nextInt();
 
@@ -31,7 +31,7 @@ public class Main {
                 System.out.println("A soma é "+soma);
             break;
             //Caso subtração
-            case "-":
+            case "2":
                 System.out.print("Primeiro número: ");
                 int num3 = scanner.nextInt();
 
@@ -43,7 +43,7 @@ public class Main {
                 System.out.println("A subtração é "+subtracao);
             break;
             //Caso multiplicação
-            case "*":
+            case "3":
                 System.out.print("Primeiro número: ");
                 int num5 = scanner.nextInt();
 
@@ -55,7 +55,7 @@ public class Main {
                 System.out.println("A multiplicacão é "+multiplicacao);
             break;
             //Caso subtração
-            case "/":
+            case "4":
                 System.out.print("Primeiro número: ");
                 int num7 = scanner.nextInt();
 
