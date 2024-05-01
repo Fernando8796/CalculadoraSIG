@@ -12,6 +12,7 @@ public class Main {
         System.out.println("[2] Subtração");
         System.out.println("[3] Multiplicação");
         System.out.println("[4] Divisão");
+        System.out.println("[5] Potência");
 
         //Pegando o operador com o usuário
         System.out.print("> ");
@@ -65,6 +66,18 @@ public class Main {
                 int divisao = num7 / num8;
 
                 System.out.println("A divisão é "+divisao);
+            break;
+            //Caso potenciação
+            case "5":
+                System.out.print("Base: ");
+                int base = scanner.nextInt();
+
+                System.out.print("Expoente: ");
+                int exp = scanner.nextInt();
+
+                double potencia = Math.pow(base, exp);
+
+                System.out.println("A potência é: "+potencia);
             break;
             //Se não for nenhum dos operadores disponíveis
             default:
